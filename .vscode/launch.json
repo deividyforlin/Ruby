@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "rdbg",
+        "name": "Depuração do arquivo aberto",
+        "request": "launch",
+        "script": "${file}",
+        "args": [],
+        "useBundler": false,
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }
+  
