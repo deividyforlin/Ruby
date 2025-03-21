@@ -3,10 +3,14 @@
   "configurations": [
     {
       "name": "Debug Ruby",
-      "type": "Ruby",
+      "type": "ruby",
       "request": "launch",
-      "program": "${file}",
-      "useBundler": true
+      "program": "${workspaceFolder}/main.rb",  // Path to your Ruby file
+      "env": {},
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "useBundler": false,
+      "showDebuggerOutput": true
     }
   ]
 }
