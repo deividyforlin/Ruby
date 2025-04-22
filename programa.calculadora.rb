@@ -3,7 +3,7 @@ num1 = gets.chomp.to_f
 puts "Digite o segundo número:"
 num2 = gets.chomp.to_f  
 puts "Digite a operação desejada (+, -, *, /):"
-operacao = gets.chomp  # Agora espera um símbolo
+operacao = gets.chomp  
 
 r = case operacao
 when "+"
