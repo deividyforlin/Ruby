@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'roman_numeral_converter'
+
+if ARGV.empty?
+  puts "Uso: roman <numeral_romano>"
+  puts "Exemplo: roman XIV"
+  exit
+end
+
+roman = ARGV[0]
+begin
+  puts RomanNumeralConverter::Converter.to_integer(roman)
+rescue => e
+  puts "Erro: #{e.message}"
+end
